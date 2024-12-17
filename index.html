@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guilty Gear Strive - SuperFan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body > 
+    <div class="row1 grey">
+      <div class="box1 white center-content">
+        <img class="logo hover" id="logo" onclick="resetAll()"/>
+      </div>
+      <div class="box2 red center-content">
+        <img class="symbol hover" id="symbol" onclick="introSymbol()"/>
+      </div>
+    </div>
+
+    <div class="row2 black" id="r2">
+      <div class="columns"  id="c1">
+        <div class="box3 color1 center-content " id="s1"> 
+          <img class="sol hover" id="sol" onclick="switchSol()"/>
+        </div>
+        <div class="box3 color2 center-content" id="s2">
+          <img class="elphelt hover" onclick="switchElphelt()"/>
+        </div>
+      </div>
+     <div class="columns" id="c2">
+      <div class="box3 color3 center-content " id="s3">
+        <img class="asukaR hover"  onclick="switchAsukaR()"/>
+      </div>
+      <div class="box3 color4 center-content" id="s4">
+        <img class="giovanna hover"  onclick="switchGiovanna()"/>
+      </div>
+     </div>
+     <div class="columns" id="c3">
+      <div class="box3 color5 center-content" id="s5">
+        <img class="bridget hover"  onclick="switchBridget()"/>
+      </div>
+      <div class="box3 color6 center-content" id="s6">
+        <img class="happychaos hover"  onclick="switchHChaos()"/>
+      </div>
+    </div>
+
+    <audio src="sounds/sol-audio.mp3" id="sol-audio">
+    <audio src="sounds/sol-intro.mp3" id="sol-intro">
+    <audio src="sounds/elphelt-audio.mp3" id="elphelt-audio">
+    <audio src="sounds/elphelt-introo.mp3" id="elphelt-intro">
+    <audio src="sounds/asukaR-audio.mp3" id="asukaR-audio">
+    <audio src="sounds/asukaR-introo.mp3" id="asukaR-intro">
+    <audio src="sounds/giovanna-audio.mp3" id="gio-audio">
+    <audio src="sounds/giovanna-intro.mp3" id="giovanna-intro">
+    <audio src="sounds/bridget-audio.mp3" id="bridget-audio">
+    <audio src="sounds/bridget-intro (1).mp3" id="bridget-intro">
+    <audio src="sounds/happychaos-audio.mp3" id="chaos-audio">
+    <audio src="sounds/chaos-intro.mp3" id="chaos-intro">
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>

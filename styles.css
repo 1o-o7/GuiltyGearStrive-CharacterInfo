@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: block;
+  background-color: #ffffff;
+}
+
+.row1 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.row2 {
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+.box1 {
+  height: 100%;
+  width: 75%;
+}
+.box2 {
+  height: 100%;
+  width: 25%;
+}
+.columns {
+  height: 100%;
+  width: calc(100% / 3);
+  display: block;
+  margin-bottom: 0%;
+}
+
+.box3 {
+  height: 50%;
+  width: 100%;
+}
+
+.gone {
+  display: none;
+}
+
+.text::selection {
+  background-color: yellow;
+  color: black;
+}
+.text:hover {
+  background-color: rgb(54, 54, 54);
+  cursor: crosshair;
+}
+.text {
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 17px;
+  text-shadow: rgb(37, 37, 37) 6px 0 20px;
+  word-spacing: 8px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.opacity {
+  opacity: 0.4;
+}
+
+.bg1 {
+  background-image: url("images/bground1.jpg");
+  height: 75%;
+  width: 100%;
+  object-fit: contain;
+}
+.bg2 {
+  background-image: url("images/backg2.png");
+  height: 75%;
+  width: 100%;
+  object-fit: contain;
+}
+.bg3 {
+  background-image: url("images/bground3.jpg");
+  height: 75%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo {
+  content: url("images/GuiltyGear_Logo.webp");
+  object-fit: contain;
+  height: 75%;
+  width: 75%;
+}
+.hover:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.05);
+}
+.sol {
+  content: url("images/Sol.PNG");
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-sol {
+  content: url("images/full-Sol.png");
+  cursor: pointer;
+  object-fit: contain;
+  height: 95%;
+  width: 100%;
+}
+.full-sol:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.solList {
+  content: url("images/solList.png");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+
+.elphelt {
+  content: url("images/elphelt.PNG");
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-elphelt {
+  content: url("images/full-elphelt.png");
+  cursor: pointer;
+  object-fit: contain;
+  height: 95%;
+  width: 100%;
+}
+.full-elphelt:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.elpheltList {
+  content: url("images/elpheltList.jpg");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+.asukaR {
+  content: url("images/asukaR\ \(2\).PNG");
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-asukaR {
+  content: url("images/full-asukaR.png");
+  cursor: pointer;
+  object-fit: contain;
+  height: 95%;
+  width: 100%;
+}
+.full-asukaR:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.asukaRList {
+  content: url("images/asukaRList.png");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+.giovanna {
+  content: url("images/gio.jpg");
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-giovanna {
+  content: url("images/full-giovanna.png");
+  cursor: pointer;
+  object-fit: contain;
+  height: 95%;
+  width: 100%;
+}
+.full-giovanna:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.gioList {
+  content: url("images/gioList.png");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+.bridget {
+  content: url("images/bridget.PNG");
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-bridget {
+  content: url("images/full-bridget.png");
+  cursor: pointer;
+  object-fit: contain;
+  height: 95%;
+  width: 100%;
+}
+.full-bridget:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.bridgetList {
+  content: url("images/bridgetList.png");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+.happychaos {
+  content: url("images/happychaos.PNG");
+  cursor: pointer;
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+}
+
+.full-chaos {
+  content: url("images/full-Hchaos.png");
+  object-fit: contain;
+  cursor: pointer;
+  height: 95%;
+  width: 100%;
+}
+.full-chaos:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 8px 3px);
+  transform: scale(1.04);
+}
+.chaosList {
+  content: url("images/happychaosList.png");
+  object-fit: contain;
+  height: 100%;
+  width: calc(100% / 3);
+}
+.solGif {
+  content: url("images/SolBadguy.gif");
+  object-fit: contain;
+}
+
+.elphGif {
+  content: url("images/ggst-elphelt.gif");
+  object-fit: contain;
+}
+.AsukaRGif {
+  content: url("images/AsukaRk.gif");
+  object-fit: contain;
+}
+.giovannaGif {
+  content: url("images/giovanna.gif");
+  object-fit: contain;
+}
+.bridgetGif {
+  content: url("images/bridget.gif");
+  object-fit: contain;
+}
+.chaosGif {
+  content: url("images/happyChaos.gif");
+  object-fit: contain;
+}
+
+.symbol {
+  content: url("images/striveSymbol.webp");
+  object-fit: contain;
+  height: 80%;
+  width: 60%;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.white {
+  background-color: #ffffffff;
+}
+.black {
+  background-color: rgb(0, 0, 0);
+}
+.red {
+  background-color: #7b181fff;
+}
+.color1 {
+  background-color: #a2504bff;
+}
+.color2 {
+  background-color: #e79597ff;
+}
+.color3 {
+  background-color: #807983ff;
+}
+.color4 {
+  background-color: #17c295ff;
+}
+.color5 {
+  background-color: #7a9bb4ff;
+}
+.color6 {
+  background-color: #5f818fff;
+}
+
+@media only screen and (max-width: 800px) {
+  .box1 {
+    height: 25%;
+    width: 100%;
+  }
+  .box2 {
+    height: 0%;
+    width: 0%;
+  }
+  .box3 {
+    height: 100%;
+    width: 50%;
+  }
+  .row2 {
+    display: block;
+  }
+  .columns {
+    height: calc(100% / 3);
+    width: 100%;
+    display: flex;
+  }
+  .logo {
+    margin-top: 20%;
+    height: 300%;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow-y: scroll;
+  }
+  .text {
+    color: rgb(0, 0, 0);
+  }
+  .row2 {
+    display: block;
+  }
+  .columns {
+    height: 100%;
+    display: block;
+  }
+  .box3 {
+    height: 50%;
+    width: 100%;
+  }
+  .logo {
+    margin-top: 35%;
+    height: 170%;
+    width: 75%;
+  }
+}
