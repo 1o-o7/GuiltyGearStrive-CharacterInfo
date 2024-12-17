@@ -1,2 +1,2 @@
 # GuiltyGearStrive-CharacterInfo
-Created with CodeSandbox
+I was allowed to choose my own topic for this project but needed the website to be responsive and interactive using Javascript. This responsive website was created and designed using HTML, CSS, and JavaScript to provide information about some of my favorite characters from the beloved game, Guilty Gear Strive! All the steps I took to build and improve my site are documented here.
