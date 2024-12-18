@@ -176,36 +176,30 @@ function switchHChaos() {
 }
 
 function playSol() {
-  c1.classList.remove("ful-sol");
   c1.classList.add("solGif");
   document.getElementById("sol-intro").play();
 }
 
 function playElphelt() {
-  c1.classList.remove("ful-elphelt");
   c1.classList.add("elphGif");
   document.getElementById("elphelt-intro").play();
 }
 
 function playAsukaR() {
-  c1.classList.remove("ful-asukaR");
   c1.classList.add("AsukaRGif");
   document.getElementById("asukaR-intro").play();
 }
 
 function playGiovanna() {
-  c1.classList.remove("full-giovanna", "color4");
   c1.classList.add("giovannaGif");
   document.getElementById("giovanna-intro").play();
 }
 
 function playBridget() {
-  c1.classList.remove("full-bridget");
   c1.classList.add("bridgetGif");
   document.getElementById("bridget-intro").play();
 }
 function playHappyChaos() {
-  c1.classList.remove("full-Hchaos");
   c1.classList.add("chaosGif");
   document.getElementById("chaos-intro").play();
 }
