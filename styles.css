@@ -64,19 +64,19 @@ body {
 }
 
 .bg1 {
-  background-image: url("images/bground1.jpg");
+  background-image: url("images/1bground\ \(1\).png");
   height: 75%;
   width: 100%;
   object-fit: contain;
 }
 .bg2 {
-  background-image: url("images/backg2.png");
+  background-image: url("images/2background\ \(1\).jpg");
   height: 75%;
   width: 100%;
   object-fit: contain;
 }
 .bg3 {
-  background-image: url("images/bground3.jpg");
+  background-image: url("images/3background\ \(1\).png");
   height: 75%;
   width: 100%;
   object-fit: contain;
